@@ -6,5 +6,5 @@ del /Q BitonicSort.cs.bin 2>NUL
 del /Q BitonicSort.cs.lst 2>NUL
 del /Q MatrixTranspose.cs.bin 2>NUL
 del /Q MatrixTranspose.cs.lst 2>NUL
-fxc.exe /nologo /Ges /O3 /T cs_5_0 /E bitonicSort /Fo BitonicSort.cs.bin /Fc BitonicSort.cs.lst /D ComputeShaders.cs
+fxc.exe /nologo /Ges /O3 /T cs_5_0 /E bitonicSort /Fo BitonicSort.cs.bin /Fc BitonicSort.cs.lst ComputeShaders.cs
 fxc.exe /nologo /Ges /O3 /T cs_5_0 /E matrixTranspose /Fo MatrixTranspose.cs.bin /Fc MatrixTranspose.cs.lst ComputeShaders.cs
